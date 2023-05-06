@@ -1,3 +1,5 @@
+const flowbite = require('flowbite');
+
 module.exports = {
     purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
     darkMode: false,
@@ -16,5 +18,5 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [require('@tailwindcss/forms'), require('flowbite')],
+    plugins: [flowbite],
 };
